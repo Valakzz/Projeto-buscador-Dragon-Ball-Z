@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personagens de DragonBall r</title>
+    <link rel="stylesheet" href="style.css" />
+
+  
+  </head>
+  <body>
+    
+    <header>
+ 
+  Personagens de DragonBall
+</header>
+    <audio id="musica" loop hidden>
+  <source src="musica/drag.mp3" type="audio/mpeg">
+</audio>
+
+    <div class="formUser">
+      <!-- Info do genero -->
+      <div id="generosPersonagens">
+        Gênero
+        <input type="radio" name="g" checked value="" /> Ambos
+        <input type="radio" name="g" value="male" /> Homem
+        <input type="radio" name="g" value="female" /> Mulher
+        <label  id="tiporaça" for="text">Raça</label>
+      </div>
+
+      <!-- Info da Raca -->
+      <div>
+       
+        <select id="race">
+          <option value="">Todas</option>
+          <option value="Saiyan">Sayajins</option>
+          <option value="Human">Humanos</option>
+          <option value="Android">Androids</option>
+          <option value="Namekian">Namekian</option>
+          <option value="Majin">Majin</option>
+          <option value="Frieza Race">Frieza Race</option>
+          <option value="Jiren Race">Jiren Race</option>
+          <option value="God">God</option>
+          <option value="Angel">Angels</option>
+          <option value="Evil">Evil</option>
+          <option value="Nucleico">Nucleico</option>
+          <option value="Nucleico benigno">Nucleico benigno</option>
+          
+
+        </select>
+      </div>
+
+      <button id="botaopesquisa" onclick="buscar(); playMusic();">Buscar Personagens</button>
+    </div>
+
+    <hr />
+
+    <div class="allUsers">
+      <div class="user">
+        <div class="avatar">
+          <img src="https://dragonball-api.com/characters/goku_normal.webp" />
+        </div>
+        <div class="data">
+          <p>Goku</p>
+          <p>
+            <span>Sayajin - Male</span>
+          </p>
+          <p>
+            <span>Base KI:</span> <br />
+            <span>6000000</span>
+          </p>
+          <p>
+            <span>Total KI:</span> <br />
+            <span>6000000</span>
+          </p>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <footer id="rodape">Site desenvolvido nas aulas Web</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
