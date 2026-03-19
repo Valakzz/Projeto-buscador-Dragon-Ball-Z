@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
   background-color: rgb(216, 132, 23);
   color: white;
@@ -84,3 +85,72 @@ body{
    color: rgb(237, 242, 247);
    
 }
+=======
+
+*{
+    
+}
+
+
+header{
+    background-color: rgb(232, 151, 30);
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+.formUser{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 2% ;
+    
+    
+    
+}
+
+#botaogerar{
+    background-color: rgb(204, 117, 25);
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+img{
+    width: 100px;
+    object-fit: contain;
+    height: 200px;
+    transform: tranform 0.2s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.allUsers{
+display: flex;
+margin-top: 15px;
+gap: 10px;
+justify-content: center;
+flex-wrap: wrap;
+object-fit: contain;
+
+
+}
+.user{
+background-color: rgb(157, 151, 151);
+display: flex;
+flex-direction: row;
+padding: 50px;
+border-radius: 15px;
+box-shadow: 2px 2px 9px rgb(171, 98, 9)    ;
+width: 250px;
+
+justify-items: center;
+}
+
+
+>>>>>>> 544dc0f5d7915908af594ac36aba2fecf04b070e
