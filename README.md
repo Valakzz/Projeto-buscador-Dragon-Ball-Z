@@ -23,7 +23,12 @@ Projeto criado durante aulas de Programação Web usando HTML, CSS, JavaScript c
 
 
 ## Design do Projeto
+
+## Antes
 ![alt text](image.png)
+##
+## Depois
+![alt text](imagenova.png)
 
 ## Detalhes do uso de API
 
